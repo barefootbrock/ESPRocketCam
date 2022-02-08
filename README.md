@@ -8,5 +8,3 @@ The video is recorded to a .jpgs file using a protocol I made up. It is very sim
 Flashing of the bright white light means video is being written to the SD card. If the ESP has any problems starting the recording, it will blink an error code (listed in the Arduino code) and boot in debug mode next time. Debug mode can also be accessed by restarting the ESP before it finishes booting (before the red light turns off).
 
 A breif flash of the red light indicates debug mode. In debug mode, the ESP creates an access point and web server. This allows new code to be uploaded with OTA (/update) and has a serial monitor (/webserial).
-
-**Note: This has not actually flown yet. I want to get the parachute on my rocket working reliably first!**
